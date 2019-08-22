@@ -1,4 +1,5 @@
 public class Student{
+     
      private String name;
      private int age;
      
@@ -9,4 +10,9 @@ public class Student{
      public String getName(){
            return name;
      }
+
+     public String toString(){
+             return "name:"+name;
+     }
+
 }
